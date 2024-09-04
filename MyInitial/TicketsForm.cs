@@ -40,6 +40,7 @@ namespace Ticketing
             if (radBox.Checked)
                 { mSection = 3; }
 
+            //HELEN HERE!!
             mTicketPrice = new TicketPrice(mSection, mQuantity, mDiscount);
 
             mTicketPrice.calculatePrice();
